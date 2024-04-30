@@ -5,8 +5,6 @@ import "./note.css"
 
 function TextBox({x,y,noteId,handle,text,cross}) {
     console.log("adding text area at -",typeof(x),y);
-    // number xPos = x;
-    // number yPos = y;
     
   return (
       <Draggable
